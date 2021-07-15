@@ -1,7 +1,6 @@
-import ValuesController from "./Controllers/ValuesController.js";
-
+import PetsController from "./Controllers/Petscontroller.js";
 class App {
-  valuesController = new ValuesController();
+  petsController = new PetsController();
 }
 
 window["app"] = new App();
